@@ -23,7 +23,7 @@ export default function Categories() {
         return(
             categories.map(category=>(
                 <TouchableHighlight onPress={()=>navigation.navigate("Laptop")}>
-                <Text style={{color:"white",fontSize:17, marginHorizontal:10}} >{category.name}</Text>
+                <Text style={{color:"black",fontSize:17, marginHorizontal:10,fontWeight:"bold"}} >{category.name}</Text>
                 </TouchableHighlight>
             ))
         )
@@ -37,7 +37,7 @@ export default function Categories() {
 
 const styles = StyleSheet.create({
     header:{
-        backgroundColor:"#3A3432",
+        backgroundColor:"whitesmoke",
         flexDirection:"row",
         justifyContent:"center",
         alignItems:"center",

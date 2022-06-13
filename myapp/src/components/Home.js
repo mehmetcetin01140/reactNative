@@ -3,11 +3,8 @@ import { StyleSheet, Text, View ,SafeAreaView,Image,Dimensions, ScrollView} from
 import {useNavigation, useRoute} from "@react-navigation/native"
 import Carousel from 'react-native-snap-carousel';
 import Categories from "./Categories"
-import Laptop from "./Laptop"
 import DiscountArea from './DiscountArea';
-import CellPhone from "./CellPhone"
-import Tv from "./Tv"
-import Hardware from "./Hardware"
+import HomeProductSliders from "./HomeProductSliders"
 export default Home = () => {
    
     return (
@@ -19,10 +16,7 @@ export default Home = () => {
          </View>
        <Categories/>
        <DiscountArea/>
-            <Laptop/>
-            <CellPhone/>
-            <Tv/>
-            <Hardware/>
+           <HomeProductSliders/>
          </View>
          </ScrollView>
     );

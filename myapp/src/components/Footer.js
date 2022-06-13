@@ -1,0 +1,37 @@
+import React from 'react';
+import { StyleSheet, Text, View ,SafeAreaView,Image,Dimensions, TouchableWithoutFeedback} from 'react-native';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import {faHouse} from '@fortawesome/free-solid-svg-icons/faHouse'
+import {faCartShopping} from '@fortawesome/free-solid-svg-icons/faCartShopping'
+import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons/faMagnifyingGlass'
+import {useNavigation, useRoute} from "@react-navigation/native"
+const Footer = () => {
+    const navigation = useNavigation()
+    return (
+       <View style={styles.footerContainer}>
+        <View style={{flex:1,alignItems:"center"}}>
+       <FontAwesomeIcon icon={faHouse} size={25}/>
+        </View>
+        <TouchableWithoutFeedback onPress={()=>navigation.navigate("Cart")}>
+        <View style={{flex:1,alignItems:"center"}}>
+       <FontAwesomeIcon icon={faCartShopping} size={25} />
+       </View>
+        </TouchableWithoutFeedback>
+       <View style={{flex:1,alignItems:"center"}}>
+       <FontAwesomeIcon icon={faMagnifyingGlass} size={25}/>
+       </View>
+       </View>
+    );
+}
+const styles = StyleSheet.create({
+   footerContainer:{
+    height:50,    
+    backgroundColor:"whitesmoke",
+    alignItems:"center",
+    flexDirection:"row",
+   }
+
+  });
+
+
+export default Footer;
