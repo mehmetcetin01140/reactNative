@@ -3,7 +3,8 @@ const INITIAL_STATE = {
       productId:null,
       productCategory:null
     },
-    cartProducts:[]
+    cartProducts:[],
+
 
 }
 export default (state=INITIAL_STATE,action)=>{
@@ -16,7 +17,7 @@ export default (state=INITIAL_STATE,action)=>{
               return{
                 ...state,cartProducts:[...state.cartProducts,action.payload]
               }
-          
+
         default:
           return state
     }

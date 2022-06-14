@@ -4,7 +4,8 @@
          "image":"https://m.media-amazon.com/images/I/81hIXkUh45S._AC_SL1500_.jpg",
         "desc": "TECLAST 15.6 inch Windows Laptop 6GB+128GB SSD 8 GB RAM",
          "productCategory":"laptopData",
-         "productInfo":"Coupled with 1920x1080 IPS and HD Graphics 500, this thin traditional laptop computers bring you impressive color and clarity. No limit for seeing. Temper glass screen with narrow bezel offer you excellent experience for watching films or enjoy any daily entertainment."
+         "productInfo":"Coupled with 1920x1080 IPS and HD Graphics 500, this thin traditional laptop computers bring you impressive color and clarity. No limit for seeing. Temper glass screen with narrow bezel offer you excellent experience for watching films or enjoy any daily entertainment.",
+         "price":"1250$"
         },
        {
         "id":2,
@@ -12,7 +13,8 @@
         "desc":
           "2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
            "productCategory":"laptopData",
-           "productInfo":"8-Core CPU 10-Core GPU 8GB Unified Memory 256GB SSD Storage 16-core Neural Engine 13-inch Retina display with True Tone Two Thunderbolt / USB 4 ports Magic Keyboard Touch Bar and Touch ID Force Touch trackpad"
+           "productInfo":"8-Core CPU 10-Core GPU 8GB Unified Memory 256GB SSD Storage 16-core Neural Engine 13-inch Retina display with True Tone Two Thunderbolt / USB 4 ports Magic Keyboard Touch Bar and Touch ID Force Touch trackpad",
+           "price":"1800$"
        },
        {
           "id":3,
@@ -20,7 +22,8 @@
           "desc":
             "HP Pavilion 15 Laptop, 11th Gen Intel Core i7-1165G7 Processor, 16 GB RAM, 512 GB SSD Storage, Full HD IPS micro-edge Display",
              "productCategory":"laptopData",
-             "productInfo":"HP is one of the most trusted laptop makers in the world. From budget models to premium ones, HP has got it all. Choosing a 16GB RAM HP laptop ensures that your computer can carry out memory intensive tasks like photo editing, gaming, media streaming, handling multiple office applications, and web browsing with a huge number of tabs seamlessly without any time lag. All 16GB RAM HP laptops are powered by an Intel Core i7 processor to help you with the heavy-lifting. The hard disk varies from 128GB to 2TB. You can choose a compact model with a screen size of 13.3' or go for a bigger screen of 17.3" 
+             "productInfo":"HP is one of the most trusted laptop makers in the world. From budget models to premium ones, HP has got it all. Choosing a 16GB RAM HP laptop ensures that your computer can carry out memory intensive tasks like photo editing, gaming, media streaming, handling multiple office applications, and web browsing with a huge number of tabs seamlessly without any time lag. All 16GB RAM HP laptops are powered by an Intel Core i7 processor to help you with the heavy-lifting. The hard disk varies from 128GB to 2TB. You can choose a compact model with a screen size of 13.3' or go for a bigger screen of 17.3" ,
+             "price":"1400$"
          },
          {
            "id":4,
@@ -28,14 +31,16 @@
            "desc":
             "HP 2PR71EA 15.6 Notebook, Intel Core i5-8250U, 8GB RAM, 1TB HDD, Windows 10",
              "productCategory":"laptopData",
-             "productInfo":"HP is one of the most trusted laptop makers in the world. From budget models to premium ones, HP has got it all. Choosing a 16GB RAM HP laptop ensures that your computer can carry out memory intensive tasks like photo editing, gaming, media streaming, handling multiple office applications, and web browsing with a huge number of tabs seamlessly without any time lag. All 16GB RAM HP laptops are powered by an Intel Core i7 processor to help you with the heavy-lifting. The hard disk varies from 128GB to 2TB. You can choose a compact model with a screen size of 13.3' or go for a bigger screen of 17.3"  
+             "productInfo":"HP is one of the most trusted laptop makers in the world. From budget models to premium ones, HP has got it all. Choosing a 16GB RAM HP laptop ensures that your computer can carry out memory intensive tasks like photo editing, gaming, media streaming, handling multiple office applications, and web browsing with a huge number of tabs seamlessly without any time lag. All 16GB RAM HP laptops are powered by an Intel Core i7 processor to help you with the heavy-lifting. The hard disk varies from 128GB to 2TB. You can choose a compact model with a screen size of 13.3' or go for a bigger screen of 17.3",
+             "price":"800$" 
          },
         {
          "id":5,
        "image":"https://n11scdn.akamaized.net/a1/640/elektronik/outlet-teshir-cep-telefonu/apple-iphone-x-64-gb-cep-telefonu-id-yok-outlet-urun__0966637772161590.jpg",
          "desc":"Apple İphone X 64 Gb",
          "productCategory":"cellphoneData",
-          "productInfo":"In the Box : iPhone with iOS 11 EarPods with Lightning Connector Lightning to 3.5 mm Headphone Jack Adapter Lightning to USB Cable USB Power Adapter Documentation"
+          "productInfo":"In the Box : iPhone with iOS 11 EarPods with Lightning Connector Lightning to 3.5 mm Headphone Jack Adapter Lightning to USB Cable USB Power Adapter Documentation",
+          "price":"1200$"
         },
        {
           "id":6,
@@ -43,7 +48,8 @@
           "desc":
           "Xiaomi Mi Note 10 Lite 128GB 8GB Ram 6.47 inç 64MP",
            "productCategory":"cellphoneData",
-           "productInfo":"Screen Fingerprint Identification, Penta Rear Cameras, 5260mAh Battery, 6.47 inch Water-drop 3D Curved Screen MIUI 11 Qualcomm Snapdragon 730G Octa Core up to 2.2GHz, Network: 4G, Dual SIM (Black"
+           "productInfo":"Screen Fingerprint Identification, Penta Rear Cameras, 5260mAh Battery, 6.47 inch Water-drop 3D Curved Screen MIUI 11 Qualcomm Snapdragon 730G Octa Core up to 2.2GHz, Network: 4G, Dual SIM (Black)",
+           "price":"800$"
        },
        {   
           "id":7,
@@ -51,7 +57,8 @@
            "desc":
             "Oppo Reno5 Lite 4G",
             "productCategory":"cellphoneData",
-            "productInfo":"The Oppo Reno 5 runs ColorOS 11.1 is based on Android 11 and packs 128GB of inbuilt storage that can be expanded via microSD card with a dedicated slot. The Oppo Reno 5 is a dual-SIM (GSM and GSM) mobile that accepts Nano-SIM and Nano-SIM cards. The Oppo Reno 5 measures 159.10 x 73.30 x 7.70mm (height x width x thickness) and weighs 171.00 grams. It was launched in Silver and Mysterious Black colours."
+            "productInfo":"The Oppo Reno 5 runs ColorOS 11.1 is based on Android 11 and packs 128GB of inbuilt storage that can be expanded via microSD card with a dedicated slot. The Oppo Reno 5 is a dual-SIM (GSM and GSM) mobile that accepts Nano-SIM and Nano-SIM cards. The Oppo Reno 5 measures 159.10 x 73.30 x 7.70mm (height x width x thickness) and weighs 171.00 grams. It was launched in Silver and Mysterious Black colours.",
+            "price":"975$"
          },
          {
          "id":8,
@@ -59,7 +66,8 @@
            "desc":
           "Samsung Galaxy A72 128 Gb",
            "productCategory":"cellphoneData",
-           "productInfo":"Supersize your view with the immersive 6.7-inch Infinity-O Display. An FHD+ Super AMOLED display, it hits 800 nits¹ for clarity even in bright daylight. Plus, Eye Comfort Shield² lowers blue light, and Real Smooth keeps the view smooth, whether you're gaming or scrolling."
+           "productInfo":"Supersize your view with the immersive 6.7-inch Infinity-O Display. An FHD+ Super AMOLED display, it hits 800 nits¹ for clarity even in bright daylight. Plus, Eye Comfort Shield² lowers blue light, and Real Smooth keeps the view smooth, whether you're gaming or scrolling.",
+           "price":"1100$"
          },
 
         {
@@ -67,7 +75,8 @@
          "image":"https://cdn.cimri.io/image/1000x1000/samsung-ue-ru7300-televizyon_210204011.jpg",
          "desc":"Samsung Curved 4K UHD LED Android TV",
          "productCategory":"tvData",
-         "productInfo":"All the game-changing clarity of 4K, with an elegant twist. The beautiful curved screen is a surefire conversation-starter, favorite content all upscaled to superior 4K quality."
+         "productInfo":"All the game-changing clarity of 4K, with an elegant twist. The beautiful curved screen is a surefire conversation-starter, favorite content all upscaled to superior 4K quality.",
+         "price":"1500$"
          
         },
        {
@@ -76,7 +85,8 @@
        "desc":
           "Samsung Curved 4K UHD TV",
            "productCategory":"tvData",
-           "productInfo":"All the game-changing clarity of 4K, with an elegant twist. The beautiful curved screen is a surefire conversation-starter, favorite content all upscaled to superior 4K quality."
+           "productInfo":"All the game-changing clarity of 4K, with an elegant twist. The beautiful curved screen is a surefire conversation-starter, favorite content all upscaled to superior 4K quality.",
+           "price":"1650$"
        },
        {
           "id":11,
@@ -84,7 +94,8 @@
            "desc":
             "LG 55UN81006LB 55 Smart 4K Ultra HD HDR LED TV",
              "productCategory":"tvData",
-             "productInfo":"Transform your regular content into 4K for sharper definition and detail, even on our biggest screens.No matter how bright or how dark your room is, you’ll experience just the right brightness with our AI Brightness Control that automatically adjusts your screen to match the room."
+             "productInfo":"Transform your regular content into 4K for sharper definition and detail, even on our biggest screens.No matter how bright or how dark your room is, you’ll experience just the right brightness with our AI Brightness Control that automatically adjusts your screen to match the room.",
+             "price":"1550$"
          },
          {
           "id":12,
@@ -92,7 +103,8 @@
           "desc":
           "SAMSUNG UE 75AU9000 75inc 189 cm 4K UHD Smart TV",
           "productCategory":"tvData",
-          "productInfo":"All the game-changing clarity of 4K, with an elegant twist. The beautiful curved screen is a surefire conversation-starter, favorite content all upscaled to superior 4K quality."
+          "productInfo":"All the game-changing clarity of 4K, with an elegant twist. The beautiful curved screen is a surefire conversation-starter, favorite content all upscaled to superior 4K quality.",
+          "price":"1300$"
          },
  
         {
@@ -100,7 +112,8 @@
          "image":"https://cdn.vatanbilgisayar.com/Upload/PRODUCT/intel/thumb/v2-92109_large.jpg",
          "desc":"Intel Core i5 9600K Socket 1151",
         "productCategory":"hardwareData",
-        "productInfo":"Total Cores 6.Total Threads 6. Max Turbo Frequency 4.60 GHz. Intel® Turbo Boost Technology 2.0 Frequency‡ 4.60 GHz. Processor Base Frequency 3.70 GHz. Cache 9 MB Intel® Smart Cache. Bus Speed 8 GT/s. TDP 95 W."
+        "productInfo":"Total Cores 6.Total Threads 6. Max Turbo Frequency 4.60 GHz. Intel® Turbo Boost Technology 2.0 Frequency‡ 4.60 GHz. Processor Base Frequency 3.70 GHz. Cache 9 MB Intel® Smart Cache. Bus Speed 8 GT/s. TDP 95 W.",
+        "price":"300$"
         },
        {
          "id":14,
@@ -108,7 +121,8 @@
         "desc":
           "MSI GEFORCE RTX 3080 GAMING X TRIO 10G 10GB GDDR6X 320Bit",
           "productCategory":"hardwareData",
-          "productInfo":"Graphic Engine. NVIDIA® GeForce RTX™ 3080. Bus Standard. PCI Express 4.0. OpenGL. OpenGL®4.6. Video Memory. 10GB GDDR6X. Engine Clock. OC Mode - 1740 MHz (Boost Clock) Gaming Mode (Default) - GPU Boost Clock : 1710 MHz , GPU Base Clock : 1440 MHz. CUDA Core. 8704. Memory Speed. 19 Gbps. Memory Interface. 320-bit."
+          "productInfo":"Graphic Engine. NVIDIA® GeForce RTX™ 3080. Bus Standard. PCI Express 4.0. OpenGL. OpenGL®4.6. Video Memory. 10GB GDDR6X. Engine Clock. OC Mode - 1740 MHz (Boost Clock) Gaming Mode (Default) - GPU Boost Clock : 1710 MHz , GPU Base Clock : 1440 MHz. CUDA Core. 8704. Memory Speed. 19 Gbps. Memory Interface. 320-bit.",
+          "price":"2000$"
        },
        {
            "id":15,
@@ -116,7 +130,8 @@
           "desc":
             "ASUSTUF B360-PRO GAM. Intel B360 Socket 1151 DDR4 2666MHz",
             "productCategory":"hardwareData",
-            "productInfo": "Asus TUF Gaming, ASUSTUF B360-PRO GAM. Intel B360 Socket 1151 DDR4 2666MHz 1.2v PCIe NVMe Gen 4.0 (x16)"
+            "productInfo": "Asus TUF Gaming, ASUSTUF B360-PRO GAM. Intel B360 Socket 1151 DDR4 2666MHz 1.2v PCIe NVMe Gen 4.0 (x16)",
+            "price":"225$"
             
          },
          {
@@ -125,7 +140,8 @@
           "desc":
           "Kingston 16GB HyperX Fury RGB DDR4 3200MHz CL16 PC RAM",
            "productCategory":"hardwareData",
-           "productInfo":"64-bit (8GB) DDR4-3200 CL16 SDRAM (Synchronous DRAM) 1Rx8, XMP TIMING PARAMETERS. •JEDEC: DDR4-2400 CL17-17-17 @1.2V. Power Supply: VDD = 1.2V Typical HX432C16PB3K2 16GB (8GB 1G x 64-Bit x 2 pcs.) Memory Module Specifications."
+           "productInfo":"64-bit (8GB) DDR4-3200 CL16 SDRAM (Synchronous DRAM) 1Rx8, XMP TIMING PARAMETERS. •JEDEC: DDR4-2400 CL17-17-17 @1.2V. Power Supply: VDD = 1.2V Typical HX432C16PB3K2 16GB (8GB 1G x 64-Bit x 2 pcs.) Memory Module Specifications.",
+           "price":"250$"
          }
                
 

@@ -9,5 +9,5 @@ export const setCartProduct = (product) => {
         type:"SET_CART_PRODUCT",
         payload: product
     }
-
 }
+
