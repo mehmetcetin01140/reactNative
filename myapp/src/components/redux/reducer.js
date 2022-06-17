@@ -4,7 +4,8 @@ const INITIAL_STATE = {
       productCategory:null
     },
     cartProducts:[],
-
+    totalPrice:[],
+    quantityHolder:[]
 
 }
 export default (state=INITIAL_STATE,action)=>{
@@ -17,6 +18,11 @@ export default (state=INITIAL_STATE,action)=>{
               return{
                 ...state,cartProducts:[...state.cartProducts,action.payload]
               }
+              case "SET_TOTAL_PRICE":
+                return{
+                  ...state,totalPrice:[...state.totalPrice,action.payload]
+                }
+              git
 
         default:
           return state
