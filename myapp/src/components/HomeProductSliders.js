@@ -6,7 +6,7 @@ import {useDispatch,useSelector} from "react-redux"
 import Carousel from 'react-native-snap-carousel';
 import productData from './data.json';
 import {setCurrentProductId} from "./redux/action"
-import {faCartShopping} from '@fortawesome/free-solid-svg-icons/faCartShopping'
+
 export default function Laptop() {
     const navigation = useNavigation()
     const dispatch = useDispatch()
@@ -54,11 +54,11 @@ export default function Laptop() {
   return (
     <View style={{marginTop:20}}>
         {
-            data.map(maple=>(
+            data.map(data=>(
                 <View>
-                <Text style={{fontSize:18, fontWeight:"bold",marginLeft:5,marginVertical:30,}}>{maple.category}</Text>
+                <Text style={{fontSize:18, fontWeight:"bold",marginLeft:5,marginVertical:30,}}>{data.category}</Text>
            <Carousel
-           data={maple.name}
+           data={data.name}
            renderItem={_renderItem}
            sliderWidth={SLIDER_WIDTH}
            itemWidth={ITEM_WIDTH}

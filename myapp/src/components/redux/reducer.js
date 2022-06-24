@@ -5,7 +5,9 @@ const INITIAL_STATE = {
     },
     cartProducts:[],
     totalPrice:[],
-    quantityHolder:[]
+    reducedTotalCost:null,
+    quantityHolder:[],
+    selectedCategory:null
 
 }
 export default (state=INITIAL_STATE,action)=>{
@@ -22,7 +24,15 @@ export default (state=INITIAL_STATE,action)=>{
                 return{
                   ...state,totalPrice:[...state.totalPrice,action.payload]
                 }
-              git
+                case "SET_REDUCED_TOTAL_COST":
+                  return{
+                    ...state,reducedTotalCost:action.payload
+                  }
+                  case "SET_SELECTED_CATEGORY":
+                    return{
+                      ...state,selectedCategory:action.payload
+                    }
+              
 
         default:
           return state

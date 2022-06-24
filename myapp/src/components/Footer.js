@@ -9,17 +9,21 @@ const Footer = () => {
     const navigation = useNavigation()
     return (
        <View style={styles.footerContainer}>
+         <TouchableWithoutFeedback onPress={()=>navigation.navigate("Home")}>
         <View style={{flex:1,alignItems:"center"}}>
        <FontAwesomeIcon icon={faHouse} size={25}/>
         </View>
+         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback onPress={()=>navigation.navigate("Cart")}>
         <View style={{flex:1,alignItems:"center"}}>
        <FontAwesomeIcon icon={faCartShopping} size={25} />
        </View>
         </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={()=>navigation.navigate("Search")}>
        <View style={{flex:1,alignItems:"center"}}>
        <FontAwesomeIcon icon={faMagnifyingGlass} size={25}/>
        </View>
+        </TouchableWithoutFeedback>
        </View>
     );
 }
