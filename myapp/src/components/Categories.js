@@ -1,19 +1,19 @@
 import React from 'react'
-import { StyleSheet, Text, View ,SafeAreaView,Image,Dimensions,Button,TouchableHighlight} from 'react-native'
-import {useNavigation, useRoute} from "@react-navigation/native"
+import { StyleSheet, Text, View, TouchableOpacity} from 'react-native'
+import {useNavigation} from "@react-navigation/native"
 import {setSelectedCategory} from "./redux/action"
-import {useDispatch,useSelector} from "react-redux"
+import {useDispatch} from "react-redux"
 export default function Categories() {
     const navigation = useNavigation()
     const dispatch = useDispatch()
     const categories = ["Computer","Tv","Cellphone","Hardware"]
     const categoryMap = () =>{
         return(
-            categories.map(category=>(
-                <TouchableHighlight onPress={()=>{dispatch(setSelectedCategory(category));navigation.navigate("Category")
+            categories.map((category,i)=>(
+                <TouchableOpacity key={i} onPress={()=>{dispatch(setSelectedCategory(category));navigation.navigate("Category")
                 }}>
                 <Text style={{color:"black",fontSize:17, marginHorizontal:10,fontWeight:"bold"}} >{category}</Text>
-                </TouchableHighlight>
+                </TouchableOpacity>
             ))
         )
     }

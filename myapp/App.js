@@ -32,7 +32,7 @@ export default function App() {
     </stack.Navigator>
    <Footer/>
   </NavigationContainer>
-    <StatusBar style="auto" />
+      <StatusBar style="auto" />
   </SafeAreaView>
   </Provider>
 

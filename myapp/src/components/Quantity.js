@@ -1,12 +1,11 @@
-import React,{useEffect,useState} from 'react'
-import { StyleSheet, Text, View ,SafeAreaView,Image,Dimensions, TouchableHighlight, ScrollView,Button} from 'react-native';
+import React,{useState} from 'react'
+import { Text, View , TouchableHighlight,} from 'react-native';
 import {useDispatch,useSelector} from "react-redux"
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import {faPlus} from '@fortawesome/free-solid-svg-icons/faPlus'
 import {faMinus} from '@fortawesome/free-solid-svg-icons/faMinus'
 import {faTrash} from '@fortawesome/free-solid-svg-icons/faTrash'
 import {setTotalPrice} from "./redux/action"
-import {isChecked} from "./redux/action"
 
 const Cart = (props) => {
     const {GeneralResponse} = useSelector(state=>state)
@@ -43,7 +42,7 @@ const Cart = (props) => {
       <FontAwesomeIcon icon={faPlus} color={"green"} />
               </View>
           </TouchableHighlight>
-      <Text style={{textAlign:"center",marginRight:10}}>{quantity}</Text>
+      <Text style={{textAlign:"center",marginHorizontal:10}}>{quantity}</Text>
       <TouchableHighlight onPress={decreaseQuantity} >
               <View>
       <FontAwesomeIcon icon={faMinus} color={"red"}/>

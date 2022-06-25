@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View ,SafeAreaView,Image,Dimensions, TouchableWithoutFeedback} from 'react-native';
+import { StyleSheet, View , TouchableWithoutFeedback} from 'react-native';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import {faHouse} from '@fortawesome/free-solid-svg-icons/faHouse'
 import {faCartShopping} from '@fortawesome/free-solid-svg-icons/faCartShopping'
 import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons/faMagnifyingGlass'
-import {useNavigation, useRoute} from "@react-navigation/native"
+import {useNavigation,} from "@react-navigation/native"
 const Footer = () => {
     const navigation = useNavigation()
     return (

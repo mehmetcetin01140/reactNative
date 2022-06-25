@@ -1,8 +1,8 @@
 import React,{useState} from "react";
 import { SafeAreaView, ScrollView, StyleSheet, TextInput, View, TouchableOpacity, Text } from "react-native";
 import { CreditCardInput } from "react-native-credit-card-input";
-import {useDispatch,useSelector} from "react-redux"
-import {useNavigation, useRoute} from "@react-navigation/native"
+import {useSelector} from "react-redux"
+import {useNavigation} from "@react-navigation/native"
 const Pay = () => {
     const {GeneralResponse} = useSelector(state=>state)
     const navigation = useNavigation()

@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View ,SafeAreaView,Image,Dimensions, ScrollView} from 'react-native';
-import {useNavigation, useRoute} from "@react-navigation/native"
-import Carousel from 'react-native-snap-carousel';
+import React from 'react';
+import { StyleSheet, View ,Image, ScrollView} from 'react-native';
+
 import Categories from "./Categories"
 import DiscountArea from './DiscountArea';
 import HomeProductSliders from "./HomeProductSliders"
@@ -11,7 +10,7 @@ export default Home = () => {
       <ScrollView>
         <View style={styles.backgroundColor}>
         <View style={styles.header}>
-         <Image style={styles.headerImage} source={require("myapp/assets/as.png")}  resizeMode="cover"
+         <Image style={styles.headerImage} source={require("./images/as.png")}  resizeMode="cover"
   resizeMethod="resize"></Image>
          </View>
        <Categories/>

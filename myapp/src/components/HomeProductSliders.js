@@ -1,8 +1,8 @@
 
-import React, { useState,useEffect } from 'react';
-import { StyleSheet, Text, View ,SafeAreaView,Image,Dimensions, TouchableWithoutFeedback} from 'react-native';
-import {useNavigation, useRoute} from "@react-navigation/native"
-import {useDispatch,useSelector} from "react-redux"
+import React from 'react';
+import { Text, View ,Image,Dimensions, TouchableWithoutFeedback} from 'react-native';
+import {useNavigation,} from "@react-navigation/native"
+import {useDispatch} from "react-redux"
 import Carousel from 'react-native-snap-carousel';
 import productData from './data.json';
 import {setCurrentProductId} from "./redux/action"
@@ -44,10 +44,11 @@ export default function Laptop() {
 
     const _renderItem = ({item, index}) => {
         return (
-            <TouchableWithoutFeedback onPress={()=>goToProduct(item.id,item.productCategory)}>
+            <TouchableWithoutFeedback onPress={()=>goToProduct(item.id,item.productCategory)} key={index}>
             <View>
                 <Image source={{uri:item.image}} style={{height:200,width:220,resizeMode:"contain"}}></Image>
                 <Text>{item.desc}</Text>
+                <Text style={{fontWeight:"bold",marginTop:10}}>{item.price}</Text>
             </View>
             </TouchableWithoutFeedback>
         )}
@@ -55,7 +56,7 @@ export default function Laptop() {
     <View style={{marginTop:20}}>
         {
             data.map(data=>(
-                <View>
+                <View id={data.id}>
                 <Text style={{fontSize:18, fontWeight:"bold",marginLeft:5,marginVertical:30,}}>{data.category}</Text>
            <Carousel
            data={data.name}

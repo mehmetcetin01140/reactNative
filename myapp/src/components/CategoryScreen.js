@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {Text,View,TouchableOpacity,Image} from "react-native"
 import { useSelector,useDispatch } from 'react-redux'
 import { setCurrentProductId } from './redux/action'
-import {useNavigation, useRoute} from "@react-navigation/native"
+import {useNavigation} from "@react-navigation/native"
 import Data from "./data.json"
 export default function CategoryScreen() {
     const {GeneralResponse} = useSelector(state=>state)
@@ -30,16 +30,15 @@ export default function CategoryScreen() {
         }
   return (
   <View style={{flex:1}}>
-        <Text style={{textAlign:"center",fontWeight:"bold",marginVertical:10,fontSize:16}}>{selectedCategory}</Text>
+        <Text style={{textAlign:"center",fontWeight:"bold",marginVertical:15,fontSize:16}}>{selectedCategory}</Text>
         {filteredProducts.map(cartItem=>(
 
-        <TouchableOpacity onPress={()=>goToProduct(cartItem.id,cartItem.productCategory)}>
-       <View style={{flexDirection:"row",alignItems:"center",marginBottom:15,marginHorizontal:35}}>
+        <TouchableOpacity key={cartItem.id} onPress={()=>goToProduct(cartItem.id,cartItem.productCategory)}>
+       <View style={{flexDirection:"row",alignItems:"center",marginHorizontal:15,marginBottom:8}}>
                  <Image source={{uri:cartItem.image}} style={{height:50,width:50,resizeMode:"contain"}} />
-                 <Text style={{marginRight:50}} >{cartItem.desc}</Text>
+                 <Text style={{marginLeft:10,marginRight:50}} >{cartItem.desc}</Text>
              </View>
-                <View style={{marginBottom:30}}>
-                </View>
+           <Text style={{textAlign:"center",marginBottom:15,fontWeight:"bold"}}>{cartItem.price}</Text>
   </TouchableOpacity>
 
         ))}

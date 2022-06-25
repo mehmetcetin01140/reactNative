@@ -1,7 +1,7 @@
-import React,{useEffect,useState} from 'react'
-import { SafeAreaView, ScrollView, StyleSheet, TextInput, View, TouchableOpacity, Text, Image, TouchableWithoutFeedback } from "react-native";
-import {useDispatch,useSelector} from "react-redux"
-import {useNavigation, useRoute} from "@react-navigation/native"
+import React,{useState} from 'react'
+import {  ScrollView, StyleSheet, TextInput, View, TouchableOpacity, Text, Image,  } from "react-native";
+import {useDispatch,} from "react-redux"
+import {useNavigation,} from "@react-navigation/native"
 import {setCurrentProductId} from "./redux/action"
 import data from "./data.json"
 export default function Search() {
@@ -27,13 +27,13 @@ export default function Search() {
       />  
       {filterProduct(searchValue).map(cartItem=>(
         <>
-        <TouchableOpacity onPress={()=>goToProduct(cartItem.id,cartItem.productCategory)}>
+        <TouchableOpacity onPress={()=>goToProduct(cartItem.id,cartItem.productCategory)} key={cartItem.id}>
           <View style={{flexDirection:"row",alignItems:"center",marginBottom:15}}>
                     <Image source={{uri:cartItem.image}} style={{height:50,width:50,resizeMode:"contain"}} />
                     <Text style={{marginLeft:10,marginRight:20}} >{cartItem.desc}</Text>
                 </View>
-                   <View style={{marginBottom:30}}>
-                   </View>
+                
+                <Text style={{textAlign:"center",fontWeight:"bold",marginBottom:15}} >{cartItem.price}</Text>
      </TouchableOpacity>
         </>
       ))}
